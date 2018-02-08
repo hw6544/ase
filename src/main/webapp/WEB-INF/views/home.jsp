@@ -6,7 +6,7 @@
 </head>
 <body>
 
-<div>그래픽카드 언제오냐!!!!!!!!!!!!!!!!!!!!!!!!!!</div>
+<div>asdsadasdsadsadsadsad</div>
 
 <P>  The time on the server is ${serverTime}. </P>
 </body>
