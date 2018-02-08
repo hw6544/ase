@@ -7,6 +7,7 @@
 <body>
 
 <div>그래픽카드 언제오냐!!!!!!!!!!!!!!!!!!!!!!!!!!</div>
+<div>정은이바보 멍청이</div>
 
 <P>  The time on the server is ${serverTime}. </P>
 </body>
