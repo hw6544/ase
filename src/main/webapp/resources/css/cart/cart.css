@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+#cart_main {
+	width: 56.25rem;
+	margin: 0px auto;
+}
+
+#cart_main li {
+	list-style: none;
+	float: left;
+	width: 50%;
+	text-align: center;
+	height: 3rem;
+	line-height: 3rem;
+}
+
+.header_margin {
+	margin-bottom: 30px;
+}
+
+.cart_contet_sel_margin {
+	margin-right: 0.5rem;
+}
+
+.cart_content_book_span {
+	position: relative;
+	bottom: 40px;
+}
+
+.cart_content_book_img {
+	width: 60px;
+	height: 90px;
+	margin-left: 5px;
+}
+
+.header_span {
+	position: relative;
+	top: 1rem;
+	font-weight: bold;
+}
+
+.cart_content {
+	float: left;
+	width: 35rem;
+	border: 1px solid #A59AF6;
+	margin-right: 0.5rem
+}
+
+.cart_content ul {
+	overflow: hidden;
+}
+
+.cart_content_select {
+	overflow: hidden;
+	margin: 0px 12px 0px 12px;
+}
+
+.cart_content_select:last-child{
+	border-top: 1px solid #A59AF6;
+}
+
+.cart_content_sel_child {
+	padding: 0.9rem 0px;
+	float: left;
+}
+
+.cart_content_sel_button {
+	float: right;
+	padding: 0.8rem 0;
+}
+
+.cart_content_book {
+	padding: 12px 0px;
+	overflow: hidden;
+	margin: 0px 12px 0px 12px;
+	border-top: solid 1px #A59AF6;
+	border-bottom: solid 0px #A59AF6;
+}
+
+.cart_content_book_content {
+	float: left;
+	width: 390px;
+	margin-left: 1rem;
+}
+
+.cart_right_menu {
+	float: left;
+	width: 19.375rem;
+	border: 0px solid #A59AF6;
+	box-sizing: border-box;
+}
+
+.cart_right_menu_content {
+	padding: 22px;
+	border: 1px solid #A59AF6;
+	border-bottom-width: 0px;
+}
+
+.cart_right_menu_count {
+	padding: 22px;
+	background-color: #776bce;
+	color: white;
+}
+
+.cart_right_menu_button {
+	padding: 1rem 8rem 1rem 8rem !important;
+	margin: 1rem auto !important;
+	font-size: 1rem !important;
+}
+
+.rent_accept {
+	border-bottom: 1px solid #A59AF6;
+	background-color: #776bce16;
+}
+
+.rent_accept:hover, .pay_accept:hover {
+	cursor: pointer;
+}
+
+.pay_accept {
+	border-right: 1px solid #A59AF6;
+	border-bottom: 1px solid #A59AF6;
+	box-sizing: border-box;
+	background-color: #776bce16;
+}
+
+.pay_active {
+	color: white;
+	background-color: #776bce;
+}
+
+.rent_active {
+	color: white;
+	background-color: #776bce;
+}
+
+.cart_button_div {
+	text-align: center;
+	padding-top: 1.4rem;
+}
+
+
+span.badge-icon {
+	background-color: dimgray;
+	border-radius: 0.25rem;
+	line-height: 0.8rem !important;
+	font-size: 0.5rem !important;
+	color: white !important;
+	padding: 0.125rem 0.25rem;
+}

@@ -1,0 +1,145 @@
+﻿@charset "UTF-8";
+
+.myridi-nearbyRead-box a,
+.myridi-nearbyRead-box li,
+.myridi-nearbyRead-box div,
+.myridi-nearbyRead-box label,
+.myridi-nearbyRead-box p {
+	color: #333;
+	font-size: 12px;
+	font-family: Helvetica Neue, 'Apple SD Gothic Neo', arial, '나눔고딕', 'Nanum Gothic', '돋움', Dotum, Tahoma, Geneva, sans-serif;
+	letter-spacing: -.03em;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* My Ridi Style */
+#myridi-contents-box {
+	width: 900px;
+	position: relative;
+	clear: both;
+	margin: 30px auto 0px;
+}
+
+.myridi-left-menu {
+	float: left;
+	width: 180px;
+	vertical-align: top;
+	padding-bottom: 320px;
+}
+
+.myridi-contents-page {
+	float: left;
+	width: 720px;
+	padding-bottom: 90px;
+}
+
+
+.ridi-book-list {
+	width: 100%;
+	display: inline-block;
+	position: relative;
+}
+
+.ridi-book-item {
+	float: left;
+	position: relative;
+	width: 20%;
+	margin-top: 20px;
+}
+
+.ridi-book-checkbox {
+	display: block;
+	position: absolute;
+	top: 10px;
+	left: -6px;
+}
+
+.ridi-book-thumbnail {
+	width: 79%;
+	height: 170px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.ridi-book-thumbnail-image {
+	display: inline-block;
+	width: 100%;
+	height: auto;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+.ridi-book-thumbnail img {
+	z-index: 10;
+	border: 1px solid rgba(0,0,0,0.4);
+	box-shadow: 0 2px 6px rgba(0,0,0,0.4), 4px -1px 5px 0px rgba(128,128,128,0.7) inset, -4px 0px 5px 0px rgba(128,128,128,0.7) inset;
+	width: 113px;
+	max-height: 167px;
+	display: inline-block;
+	position: relative;
+	left: 0;
+	bottom: 0;
+}
+
+.ridi-book-thumbnail-image:after {
+	content: ' ';
+	z-index: 20;
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background: -webkit-gradient(linear,left top,right top,color-stop(0,rgba(0,0,0,.3)),color-stop(5%,rgba(0,0,0,0)),color-stop(95%,rgba(0,0,0,0)),color-stop(100%,rgba(0,0,0,.3)));
+	background: -webkit-linear-gradient(left,rgba(0,0,0,.3) 0,rgba(0,0,0,0) 5%,rgba(0,0,0,0) 95%,rgba(0,0,0,.3) 100%);
+	background: -o-linear-gradient(left,rgba(0,0,0,.3) 0,rgba(0,0,0,0) 5%,rgba(0,0,0,0) 95%,rgba(0,0,0,.3) 100%);
+	background: -ms-linear-gradient(left,rgba(0,0,0,.3) 0,rgba(0,0,0,0) 5%,rgba(0,0,0,0) 95%,rgba(0,0,0,.3) 100%);
+	background: linear-gradient(to right,rgba(0,0,0,.3) 0,rgba(0,0,0,0) 5%,rgba(0,0,0,0) 95%,rgba(0,0,0,.3) 100%);
+}
+
+.ridi-book-thumbnail-link{
+	display: block;
+}
+
+.ridi-book-metadata {
+	width: 80%;
+	margin: 8px auto 0;
+}
+
+.ridi-book-metadata > * {
+	margin-top: 3px;
+}
+
+.book-metadata-text {
+	display: block;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	font-size: 13px;
+	font-weight: 700;
+	color: #333;
+	line-height: 1.4em;
+	max-height: 2.8em;
+	-webkit-line-clamp: 2;
+	text-overflow: ellipsis;
+	word-wrap: break-word;
+	word-break: break-all;
+	white-space: normal;
+	overflow: hidden;
+}
+
+.book-metadata-author {
+	display: block;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	font-size: 12px;
+	color: #666;
+	line-height: 1.4em;
+	max-height: 2.8em;
+	-webkit-line-clamp: 2;
+	text-overflow: ellipsis;
+	word-wrap: break-word;
+	word-break: break-all;
+	white-space: normal;
+	overflow: hidden;
+}

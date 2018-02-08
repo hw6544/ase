@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+.presentPay_header {
+	width: 35rem;
+	float: left;
+	margin-right: 1rem;
+}
+
+.presentPay_header_receiver {
+	width: 35rem;
+}
+
+.presentPay_leftContent ul {
+	overflow: hidden;
+	width: 100%;
+	border-bottom: 1px solid #776bce;
+}
+
+.presentPay_leftContent li:nth-child(even) {
+	float: left;
+	width: 70%;
+	padding: 1rem;
+}
+
+.presentPay_leftContent li:nth-child(odd) {
+	float: left;
+	width: 30%;
+	padding: 1rem;
+}
+
+.presentPay {
+	overflow: hidden;
+	width: 56.25rem;
+	margin: 0px auto;
+}
+

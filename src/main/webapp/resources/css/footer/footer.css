@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+.footer_background {
+	background-color: #776bce16;
+	height: 220px;
+}
+
+.footer_header {
+	overflow: hidden;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	font-size: 12px;
+}
+
+.footer_header_border {
+	height: 16px;
+	padding: 0rem 1rem;
+	margin: 1rem auto;
+	line-height: 16px;
+	overflow: hidden;
+	width: 900px;
+}
+
+.footer_header_notice {
+	float: left;
+	padding-right: 1rem;
+	cursor: pointer;
+	color: black;
+}
+
+.footer_header_notice:hover {
+	color: blue;
+}
+
+.footer_haeder_notice_text {
+	float: left;
+	cursor: pointer;
+}
+
+.footer_haeder_notice_text span {
+	display: block;
+}
+
+.footer_header_notice_change:hover {
+	color: blue;
+}
+
+.footer_left_content {
+	overflow: hidden;
+}
+
+.footer_left_content_call {
+	float: left;
+	padding: 1rem;
+}
+
+.footer_left_content_padding1 {
+	padding: 1rem !important;
+	font-size: 12px;
+}
+
+.footer_left_content_padding2 {
+	padding: 0rem 1rem;
+	font-size: 12px;
+}
+
+.footer_left_content_padding2 pre {
+	line-height: 1rem;
+}
+
+.footer_left_content_copyright {
+	overflow: hidden;
+	padding: 1rem 0rem;
+}
+
+.footer_left_content_copyright li {
+	margin-right: 1rem !important;
+	float: left !important;
+}
+
+.footer_content {
+	margin: 0px auto;
+	width: 900px;
+	overflow: hidden;
+}
+
+.footer_conter_float {
+	float: left;
+}
+
+.footer_right_content {
+	float: left;
+	margin-left: 5rem;
+}
+
+.footer_right_content ul {
+	/* 	float: left !important; */
+	margin: 0.5rem !important;
+	font-size: 13px !important;
+}
+
+.footer_right_content li:first-child {
+	font-weight: bold !important;
+}
+
+.footer_right_content li {
+	margin-top: 0.5rem !important;
+    display: inline-block;
+	margin-right: 0.5rem;
+}
+
+.footer_right_content img {
+	width: 32px;
+	height: 32px;
+	float: left;
+}
+
+.footer_end_content_text {
+	float: left;
+	width: 112px;
+	margin-left: 5px;
+	line-height: 1rem;
+}
+
+.footer_end_content {
+	width: 900px;
+	margin: 0px auto;
+	overflow: hidden;
+	padding: 1rem;
+}
+
+.footer_end_content_text span:first-child {
+	font-size: 14px;
+}
+
+.footer_end_content_text span:last-child {
+	font-size: 12px;
+}
+
+.footer_right_content li:hover {
+	cursor: pointer;
+	color: #776bce;
+}
+
+.footer_margin_right {
+	margin-right: 0px !important;
+}
+
+.footer_header_notice_change{
+	position: relative;
+	top: 0px;
+	display: block;
+}

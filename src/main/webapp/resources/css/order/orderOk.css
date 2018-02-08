@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+.orderOK {
+	width: 900px;
+	text-align: center;
+	margin: 0px auto;
+}
+
+.orderOk_leftMenu {
+	margin: 0px auto;
+/*     width: 30rem; */
+    border: 1px solid #776bce;
+}
+
+.orderOk_leftMenu_margin {
+	padding-bottom: 2rem
+}
+
+.orderOk_leftMenu_icon {
+/* 	position: relative; */
+	padding: 3rem 0rem;
+	display: block;
+/* 	width: 38px; */
+/* 	margin: 0px auto; */
+}
+
+.orderOk_leftMenu_icon_text {
+	font-size: 1.75rem;
+	font-weight: bold;
+}
+
+.orderOk_leftMenu_box {
+	font-size: 13px;
+    border: 1px solid black;
+    overflow: hidden;
+    width: 19.375rem;
+    margin: 0px auto;
+}
+
+.orderOk_leftMenu_box ul {
+	float: left;
+	width: 100%;
+	text-align: left;
+}
+
+.orderOk_leftMenu_box li {
+	float: left;
+	height: 2rem;
+	width: 50%;
+	padding: 0.3rem 0.8rem;
+}
+
+.orderOk_leftMenu_box li {
+	line-height: 1.5rem;
+}
+
+.orderOk_leftMenu_box li:nth-child(2) {
+	text-align: right;
+}
+
+.orderOk_button {
+	padding: 1rem 1.5rem !important;
+}

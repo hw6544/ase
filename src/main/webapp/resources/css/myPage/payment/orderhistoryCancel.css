@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+.orderhistory {
+	width: 45rem;
+	display: inline;
+}
+
+.orderhistorysub1 {
+	width: 45rem;
+	overflow: hidden;
+	background-color: #776bce;
+	color: white;
+	margin-top: 1rem;
+}
+
+.orderhistorysub2 {
+	width: 45rem;
+	overflow: hidden;
+	background-color: #776bce16;
+}
+
+.orderhistorysub2 li {
+	height: 40px;
+	list-style: none;
+	float: left;
+	width: 11.25rem;
+	text-align: center;
+	line-height: 40px;
+	font-size: 14px;
+}
+
+.orderhistorysub2:hover {
+	background-color: white;
+	cursor: pointer;
+}
+
+.orderhistorysub1 li {
+	height: 40px;
+	list-style: none;
+	float: left;
+	width: 11.25rem;
+	text-align: center;
+	line-height: 40px;
+	font-size: 12px;
+	color: white;
+}
+
+.orderhistroy_paylist {
+	text-align: left;
+	width: 9.5rem;
+}
+
+.orderhistroy_orderlist {
+	text-align: right;
+	width: 9.5rem
+}
+
+.orderhistory_leftside {
+	float: left;
+	text-align: right;
+	background-color: #776bce;
+	color: white
+}
+
+.orderhistory_leftside li {
+	width: 240px;
+	border-color: #A59AF6;
+	padding-right: 20px;
+	line-height: 37px;
+	padding-left: 12px;
+	border-bottom: 1px solid white;
+	font-size: 14px;
+	display: inherit;
+	color: white;
+}
+
+.orderhistory_rightside {
+	float: left;
+	background-color: #776bce16
+}
+
+.orderhistory_rightside li {
+	width: 480px;
+	padding-right: 20px;
+	line-height: 37px;
+	padding-left: 12px;
+	border-bottom: 1px solid white;
+	font-size: 14px;
+	display: inherit;
+}
+
+.menu_notice_tip {
+	margin-top: 1rem;
+	margin-left: 2rem;
+}
+
+.orderhistory_top {
+	margin-top: 2rem;
+}
+
+.orderhitory_gift {
+	width: 720px;
+	background-color: #776bce;
+	color: white;
+	text-align: center;
+	height: 37px;
+	line-height: 37px;
+	border-bottom: 1px solid white;
+	overflow: hidden;
+	margin-top: 1rem;
+}
+
+.orderhistory_resubmit {
+	text-align: right;
+	margin-top: 1rem;
+}

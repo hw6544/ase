@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+.present_header {
+	padding: 1rem;
+	font-size: 1.5rem;
+}
+
+.present_header_text {
+	padding: 1rem;
+	font-size: 0.8rem;
+	line-height: 1.2rem;
+}
+
+.present_header_img {
+	padding-bottom: 1rem;
+}
+
+.present_content {
+	width: 800px;
+	margin: 0px auto;
+	text-align: center;
+	border: 1px solid #776bce;
+}
+
+.present_send {
+	width: 100%;
+	overflow: hidden;
+	border-bottom: 1px solid #776bce;
+}
+
+.present_content_text {
+	float: left;
+	padding: 2rem;
+	width: 220px;
+}
+
+.present_content_text_input {
+	border: 1px solid;
+	width: 180px;
+	float: left;
+	margin: 2rem;
+}
+
+.present_receiver {
+	width: 100%;
+	overflow: hidden;
+	border-bottom: 1px solid #776bce;
+}
+
+.present_receiver_id {
+	float: left;
+	padding: 2rem;
+	padding-right: 0rem;
+}
+
+.present_receiver_id_input {
+	border: 1px solid;
+	float: left;
+	margin: 1rem;
+	margin-top: 29px;
+}
+
+.present_receiver_id_tootip {
+	position: relative;
+	bottom: 15px;
+	font-size: 13px;
+	right: 22px;
+}
+
+.present_msg {
+	width: 100%;
+	border-bottom: 1px solid #776bce;
+}
+
+.present_msg_textarea {
+	width: 32rem;
+	height: 10rem;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	margin: 1rem;
+	resize: none;
+}
+
+.present_bt {
+	padding: 2rem;
+}
+
+.present_button {
+	padding: 1rem 3rem !important;
+	font-size: 1.0rem !important;
+}

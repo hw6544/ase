@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+.wishlist_header {
+	font-size: 0.8rem;
+	padding: 1rem !important;
+}
+
+.wishlist_middle {
+	margin: 0px;
+	border: 1px solid #A59AF6;
+	border-bottom: 0px;
+}
+
+.wishlist_middle:last-child{
+	border-bottom: 1px solid #A59AF6;	
+}
+
+.wishlist_content {
+	width: 12.5rem;
+}
+
+.wishlistMainContent{
+    width: 900px;
+    margin: 0px auto;
+}
